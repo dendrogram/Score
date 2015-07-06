@@ -14,6 +14,12 @@
 		E12A82821B4AAF380043F79A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E12A82811B4AAF380043F79A /* Images.xcassets */; };
 		E12A82851B4AAF380043F79A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E12A82831B4AAF380043F79A /* LaunchScreen.xib */; };
 		E12A82911B4AAF380043F79A /* ScoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E12A82901B4AAF380043F79A /* ScoreTests.m */; };
+		E12A82A01B4AB6DB0043F79A /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E12A829F1B4AB6DB0043F79A /* HealthKit.framework */; };
+		E12A82A21B4AB6F50043F79A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E12A82A11B4AB6F50043F79A /* MessageUI.framework */; };
+		E12A82A71B4AC1770043F79A /* fita50x30.png in Resources */ = {isa = PBXBuildFile; fileRef = E12A82A31B4AC1770043F79A /* fita50x30.png */; };
+		E12A82A81B4AC1770043F79A /* gnas50x30.png in Resources */ = {isa = PBXBuildFile; fileRef = E12A82A41B4AC1770043F79A /* gnas50x30.png */; };
+		E12A82A91B4AC1770043F79A /* lady50x30.png in Resources */ = {isa = PBXBuildFile; fileRef = E12A82A51B4AC1770043F79A /* lady50x30.png */; };
+		E12A82AA1B4AC1770043F79A /* gent50x30.png in Resources */ = {isa = PBXBuildFile; fileRef = E12A82A61B4AC1770043F79A /* gent50x30.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,13 @@
 		E12A828A1B4AAF380043F79A /* ScoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E12A828F1B4AAF380043F79A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E12A82901B4AAF380043F79A /* ScoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScoreTests.m; sourceTree = "<group>"; };
+		E12A829C1B4AAF760043F79A /* Score.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Score.entitlements; sourceTree = "<group>"; };
+		E12A829F1B4AB6DB0043F79A /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		E12A82A11B4AB6F50043F79A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		E12A82A31B4AC1770043F79A /* fita50x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fita50x30.png; sourceTree = "<group>"; };
+		E12A82A41B4AC1770043F79A /* gnas50x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gnas50x30.png; sourceTree = "<group>"; };
+		E12A82A51B4AC1770043F79A /* lady50x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lady50x30.png; sourceTree = "<group>"; };
+		E12A82A61B4AC1770043F79A /* gent50x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gent50x30.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E12A82A21B4AB6F50043F79A /* MessageUI.framework in Frameworks */,
+				E12A82A01B4AB6DB0043F79A /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,8 @@
 		E12A82681B4AAF380043F79A = {
 			isa = PBXGroup;
 			children = (
+				E12A82A11B4AB6F50043F79A /* MessageUI.framework */,
+				E12A829F1B4AB6DB0043F79A /* HealthKit.framework */,
 				E12A82731B4AAF380043F79A /* Score */,
 				E12A828D1B4AAF380043F79A /* ScoreTests */,
 				E12A82721B4AAF380043F79A /* Products */,
@@ -81,6 +98,7 @@
 		E12A82731B4AAF380043F79A /* Score */ = {
 			isa = PBXGroup;
 			children = (
+				E12A829C1B4AAF760043F79A /* Score.entitlements */,
 				E12A82781B4AAF380043F79A /* AppDelegate.h */,
 				E12A82791B4AAF380043F79A /* AppDelegate.m */,
 				E12A827B1B4AAF380043F79A /* ViewController.h */,
@@ -96,6 +114,10 @@
 		E12A82741B4AAF380043F79A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E12A82A31B4AC1770043F79A /* fita50x30.png */,
+				E12A82A41B4AC1770043F79A /* gnas50x30.png */,
+				E12A82A51B4AC1770043F79A /* lady50x30.png */,
+				E12A82A61B4AC1770043F79A /* gent50x30.png */,
 				E12A82751B4AAF380043F79A /* Info.plist */,
 				E12A82761B4AAF380043F79A /* main.m */,
 			);
@@ -168,6 +190,12 @@
 				TargetAttributes = {
 					E12A82701B4AAF380043F79A = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = G8Q878PY9S;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 0;
+							};
+						};
 					};
 					E12A82891B4AAF380043F79A = {
 						CreatedOnToolsVersion = 6.4;
@@ -199,7 +227,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E12A82A91B4AC1770043F79A /* lady50x30.png in Resources */,
+				E12A82A71B4AC1770043F79A /* fita50x30.png in Resources */,
+				E12A82AA1B4AC1770043F79A /* gent50x30.png in Resources */,
 				E12A82801B4AAF380043F79A /* Main.storyboard in Resources */,
+				E12A82A81B4AC1770043F79A /* gnas50x30.png in Resources */,
 				E12A82851B4AAF380043F79A /* LaunchScreen.xib in Resources */,
 				E12A82821B4AAF380043F79A /* Images.xcassets in Resources */,
 			);
@@ -347,9 +379,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Score/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -357,9 +393,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Score/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
